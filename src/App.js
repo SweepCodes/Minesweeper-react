@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+/* React Minesweeper game
+   A mini version of the microsoft minesweeper game using react components.
+   Made By: Abdulla Jamal
+   Last Updated: 29-10-2024
+*/
 import './App.css';
+import { Board } from './Board';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Board />
     </div>
   );
 }
